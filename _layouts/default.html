@@ -14,9 +14,12 @@
 
     <header>
       <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
+        <a href="/">
+          <div id="mainbutton">
+            <img src="/assets/images/PerytonSpace_Square.svg" style="width: 32px; height: 32px; padding: 5px;">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          </div>   
+        </a>             
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">

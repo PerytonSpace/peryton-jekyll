@@ -77,11 +77,16 @@ header h1 {
   }
 }
 
-
-header h1:before {
-  content: "./ ";
-  font-size: 24px;
+#mainbutton {
+  display: flex;
+  padding: 10px;
 }
+
+
+// #a-title:before {
+//   content: url('../images/PerytonSpace_Square.svg');
+//   font-size: 24px;
+// }
 
 header h2 {
   font-size: 18px;
